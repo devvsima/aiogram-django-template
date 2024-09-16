@@ -17,7 +17,7 @@ SECRET_KEY = 'django-insecure-zfu#gx_rrrcl9-u2ij+okv0z+c3o=6!zlvhbc1sfk495(z$$(-
 
 DEBUG = env.bool('server_debug', default=True)
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', env.str('server_ip', default=None), env.str('server_domain', default=None)]
+ALLOWED_HOSTS = ['274f-194-60-254-105.ngrok-free.app','localhost', '127.0.0.1', env.str('server_ip', default=None), env.str('server_domain', default=None)]
 
 
 # Application definition
